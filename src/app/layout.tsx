@@ -3,7 +3,7 @@ import { Ubuntu } from 'next/font/google';
 import { ReactNode } from 'react';
 import './globals.css';
 
-const font = Ubuntu({ subsets: ['latin-ext'], weight: '400' });
+const font = Ubuntu({ subsets: [], weight: '400' });
 
 export const metadata: Metadata = {
   title: 'Anton Karpov - web developer',
