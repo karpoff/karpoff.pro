@@ -11,7 +11,7 @@ export default function Home() {
             </div>
 
             <div>
-              <a href="https://cv.karpoff.pro" className="text-2xl px-4 py-2 border rounded">CV</a>
+              <a href="/cv" className="text-2xl px-4 py-2 border rounded">CV</a>
             </div>
           </div>
         </nav>
