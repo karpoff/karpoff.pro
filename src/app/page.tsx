@@ -52,7 +52,7 @@ export default function Home() {
               I have strong experience in web development (back end, front end, mobile).
               And can manage whole development process
             </p>
-            <p className="mt-4 text-neutral-500 opacity-80">You cant contact me via <a className="underline" href="https://t.me/gagarins" target="_blank">telegram @gagarins</a></p>
+            <p className="mt-4 text-neutral-500 opacity-80">You can contact me via <a className="underline" href="https://t.me/gagarins" target="_blank">telegram @gagarins</a></p>
           </div>
         </div>
 
@@ -61,7 +61,7 @@ export default function Home() {
             {career.map(job => (
               <div key={job.key} className="mb-8 px-4">
                 <div className="rounded-full overflow-hidden bg-white w-32 h-32 flex items-center justify-center">
-                  <div className="bg-center w-36 h-36 bg-cover scale-75"
+                  <div className="bg-center w-36 h-36 bg-contain bg-no-repeat"
                     style={{ backgroundImage: `url(${job.company.logo})` }}
                   />
                 </div>

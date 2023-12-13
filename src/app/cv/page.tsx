@@ -5,15 +5,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FC } from "react";
 
 import { career } from "@/career";
+import { Print } from "@/components/print";
 import contacts from '@/contacts';
 
 config.autoAddCss = false;
 
 export default function CV() {
     return (
-      <div className="w-full">
+      <div className="w-full py-10">
+        <div className="mx-auto max-w-[21cm] flex justify-between">
+          <a href="/" className="text-neutral-400">back to karpoff.pro</a>
+
+          <Print className="text-neutral-400">print version</Print>
+        </div>
         <div
-          className="mx-auto max-w-[21cm] bg-white border border-gray-300 rounded-sm shadow-lg py-10 px-10 w-4/5 mt-10 mb-10"
+          className="mx-auto max-w-[21cm] bg-white border border-gray-300 rounded-sm shadow-lg py-10 px-10 w-4/5"
         >
           <HeaderBlock />
 
