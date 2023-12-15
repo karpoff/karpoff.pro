@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 
 const getScriptBody = (key: string) => `
 (function (d, w, c) {
