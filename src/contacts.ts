@@ -3,19 +3,12 @@ import { faFacebook, faLinkedin, faTelegram, faGithub, faSkype } from '@fortawes
 const contacts = {
     email: 'anton@karpoff.pro',
     web: 'https://karpoff.pro',
-    tg: '@gagarins',
     social: [
         {
-            'title': 'Facebook',
-            'link': 'https://www.facebook.com/karpenius',
-            'display': 'karpenius',
-            'icon': faFacebook,
-        },
-        {
-            'title': 'Skype',
-            'link': 'skype:akarpoff?userinfo',
-            'display': 'akarpoff',
-            'icon': faSkype,
+            'title': 'Telegram',
+            'link': 'https://t.me/gagarins',
+            'display': '@gagarins',
+            'icon': faTelegram,
         },
         {
             'title': 'Github',
@@ -30,10 +23,10 @@ const contacts = {
             'icon': faLinkedin,
         },
         {
-            'title': 'Telegram',
-            'link': 'https://t.me/gagarins',
-            'display': '@gagarins',
-            'icon': faTelegram,
+            'title': 'Facebook',
+            'link': 'https://www.facebook.com/karpenius',
+            'display': 'karpenius',
+            'icon': faFacebook,
         },
     ]
 };

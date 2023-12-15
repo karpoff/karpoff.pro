@@ -19,7 +19,7 @@ export default function CV() {
           <Print className="text-neutral-400">print version</Print>
         </div>
         <div
-          className="mx-auto max-w-[21cm] bg-white border border-gray-300 rounded-sm shadow-lg py-10 px-10 w-4/5"
+          className="mx-auto max-w-[21cm] bg-white border border-gray-300 rounded-sm shadow-lg pb-10 pt-6 px-10 w-4/5"
         >
           <HeaderBlock />
 
@@ -43,6 +43,7 @@ const HeaderBlock = () => (
       <div className="grid justify-items-end">
         <h1 className="text-7xl font-extrabold">Anton Karpov</h1>
         <p className="text-xl mt-5">Web Developer / project manager</p>
+        <p className="text-md mt-2">15+ years experience in IT</p>
       </div>
     </div>
   </header>
@@ -56,12 +57,16 @@ const MainBar: FC<{ className?: string }> = ({ className }) => (
         <span className="ml-2">38 years</span>
       </li>
       <li className="px-2 mt-1">
-        <FontAwesomeIcon icon={faEnvelope} />
-        <a href={`mailto:${contacts.email}`} className="ml-2">{contacts.email}</a>
+        <FontAwesomeIcon icon={faLocation} />
+        <span className="ml-2">Yerevan, Armenia</span>
       </li>
       <li className="px-2 mt-1">
         <FontAwesomeIcon icon={faGlobe} />
         <a href={contacts.web} className="ml-2">{contacts.web}</a>
+      </li>
+      <li className="px-2 mt-1">
+        <FontAwesomeIcon icon={faEnvelope} />
+        <a href={`mailto:${contacts.email}`} className="ml-2">{contacts.email}</a>
       </li>
 
       {contacts.social.map(soc => (
@@ -69,12 +74,9 @@ const MainBar: FC<{ className?: string }> = ({ className }) => (
           <FontAwesomeIcon icon={soc.icon} />
           <a href={soc.link} target="_blank" className="ml-2">{soc.display}</a>
         </li>
-        ))}
+      ))}
 
-      <li className="px-2 mt-1">
-        <FontAwesomeIcon icon={faLocation} />
-        <span className="ml-2">Yerevan, Armenia</span>
-      </li>
+
     </ul>
 
     <strong className="text-xl font-medium">Languages</strong>
@@ -207,7 +209,7 @@ const JobsSection = () => (
     {career.map(job => (
       <div className="py-2" key={job.key}>
         <p className="flex justify-between text-sm">
-          <strong className="text-base">
+          <strong className="text-base underline">
             {job.company.name}
           </strong>
           <span className="text-neutral-400">{job.period}</span>

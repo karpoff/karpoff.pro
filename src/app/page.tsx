@@ -23,10 +23,9 @@ export default function Home() {
           <h1 className="text-white text-5xl font-semibold text-center px-6 ">
             HI! I'm <span className="text-sky-800 bg-neutral-300 bg-opacity-50 px-1">Anton Karpov</span>
           </h1>
-
          
           <div className="text-white text-3xl font-semibold opacity-50 mt-16">
-            Web developer
+            Web developer with 15+ years experience in IT
           </div>
         </div>
 

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Ubuntu } from 'next/font/google';
 import { ReactNode } from 'react';
+import { YandexMetrika } from "@/components/ym";
 import './globals.css';
 
 const font = Ubuntu({ subsets: [], weight: '400' });
@@ -28,6 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en_US">
+      <head><YandexMetrika /></head>
       <body className={font.className}>{children}</body>
     </html>
   );
