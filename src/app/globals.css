@@ -16,6 +16,13 @@
   }
 }
 
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    -moz-print-color-adjust: exact;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

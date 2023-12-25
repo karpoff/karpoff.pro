@@ -38,7 +38,7 @@ export const YandexMetrika = () => {
         <script type="text/javascript" dangerouslySetInnerHTML={{ __html: getScriptBody(key) }} />
         <noscript>
           <div>
-            <img src={`https://mc.yandex.ru/watch/${key}`} style={{ position: 'absolute', left: '-9999px;' }} alt="" />
+            <img src={`https://mc.yandex.ru/watch/${key}`} style={{ position: 'absolute', left: '-9999px' }} alt="" />
           </div>
         </noscript>
       </>

@@ -18,7 +18,7 @@ export const career = [
             'improved FE skills: react, mobx',
             'micro-frontend experience, created CI/CD flow for micro-frontends that allows to release them safely',
             'improved skills with app/micro-frontend bundling (webpack)',
-            'more experience in working with inefficient management'
+            'improved self-management skills'
         ],
     },
 
@@ -32,7 +32,7 @@ export const career = [
         },
         position: 'senior software developer, engineering manager',
         description: 'Tinkoff - Website builder. Tinkoff - CRM. creating internal admin system',
-        technologies: 'javascript, angular, node, postgres, python, react, ',
+        technologies: 'javascript, angular, node, postgres, python, react',
         roles: [
             'FrontEnd developer (angular, ngrx, node.js)',
             'BackEnd developer (node.js, express, postgres, redis, bull.js)',
@@ -107,4 +107,47 @@ export const career = [
         ],
         achievements: [],
     },
+];
+
+export const projects = [
+    {
+        key: 'armaqi',
+        title: 'armaqi.org',
+        href: 'https://armaqi.org',
+        description: 'Non-commercial project to monitor air quality in Armenia.',
+        what: ['Website implementation (next.js with vercel)', 'Maintenance and adding new features'],
+
+        live: 'https://armaqi.org',
+        code: 'https://github.com/armaqi-org/armaqi.org',
+
+        technologies: ['next.js', 'React', 'TS'],
+    },
+    {
+        key: 'tinkoff',
+        title: 'Tinkoff website builder',
+        href: 'https://www.tinkoff.ru/business/website-builder/',
+        description: 'No-code website builder for the customers of the biggest online bank in Russia.',
+        what: ['System architecture', 'Engineering management', 'Team leadership', 'Fullstack development', 'Technical project management'],
+
+        technologies: ['PM', 'Angular', 'node.js', 'TPM'],
+    },
+    {
+        key: 'st',
+        title: 'ServiceTitan',
+        href: 'https://www.servicetitan.com/',
+        description: 'Home and Commercial Software for the Trades.',
+        what: ['FrontEnd development', 'Platform development'],
+
+        technologies: ['React', 'TS'],
+    },
+];
+
+export const education = [
+    {
+        key: 'nstu',
+        title: 'Niznhy Novgorod State Technical University',
+        period: '2003-2009',
+        speciality: 'Network and Switching systems',
+        degree: 'Bachelor+'
+    }
 ];

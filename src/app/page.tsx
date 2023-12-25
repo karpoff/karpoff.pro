@@ -57,7 +57,7 @@ export default function Home() {
 
         <div className="bg-blue-500 w-screen py-16">
           <div className="max-w-screen-lg px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-auto">
-            {career.map(job => (
+            {career.slice(0, 3).map(job => (
               <div key={job.key} className="mb-8 px-4">
                 <div className="rounded-full overflow-hidden bg-white w-32 h-32 flex items-center justify-center">
                   <div className="bg-center w-36 h-36 bg-contain bg-no-repeat"
